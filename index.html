@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script>
+      const redirectUrl = "https://manishbhandari.framer.website/";
+      const metaRefresh = document.createElement("meta");
+      metaRefresh.httpEquiv = "refresh";
+      metaRefresh.content = `0; url=${redirectUrl}`;
+      document.head.appendChild(metaRefresh);
+
+      window.location.replace(redirectUrl);
+    </script>
+    <title>Redirecting…</title>
+  </head>
+  <body></body>
+</html>
